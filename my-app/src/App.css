@@ -1,0 +1,172 @@
+.App {
+  text-align: left;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+/* App.css */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  font-size: 20px; /* Adjust the size as needed */
+  margin-left: -25px; /* Adjust the margin to position the icon */
+  cursor: pointer;
+}
+
+
+/* App.css */
+.box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f0f0f0;
+}
+
+/* Add this CSS to your stylesheet, or create a separate CSS file */
+
+/* Style the arrow */
+.box {
+  position: relative;
+}
+
+.dropdown-arrow {
+  position: absolute;
+  top: 5px; /* Adjust the top position as needed */
+  right: 5px; /* Adjust the right position as needed */
+  font-size: 20px; /* Adjust the size as needed */
+  cursor: pointer;
+}
+
+.description-box {
+  background-color: #f5f5f5; /* Background color */
+  border: 1px solid #ddd; /* Border */
+  padding: 10px; /* Padding inside the box */
+  margin-top: 10px; /* Margin to separate it from the header */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.description-box p {
+  /* Additional styles for the text content within the description-box */
+  margin: 0; /* Remove default margins */
+}
+
+.gender-box{
+  background-color: #f5f5f5; /* Background color */
+  border: 1px solid #ddd; /* Border */
+  padding: 10px; /* Padding inside the box */
+  margin-top: 10px; /* Margin to separate it from the header */
+  border-radius: 5px; 
+  width:fit-content
+}
+
+.gender-box1{
+  background-color: #f5f5f5; /* Background color */
+  border: 1px solid #ddd; /* Border */
+  padding: 10px; /* Padding inside the box */
+  margin-top: 10px; /* Margin to separate it from the header */
+  border-radius: 5px; 
+  width:fit-content
+}
+
+
+
+/* App.css */
+
+.box {
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.box-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.box-header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.box-header span {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.dropdown-arrow {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.details {
+  margin-top: 10px;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-item div {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.description-box {
+  margin-top: 10px;
+}
+
+.description-box p {
+  margin: 0;
+}
+/* App.css */
+
+.info-table {
+  border-collapse: separate;
+}
+
+.info-table td {
+  padding: 0;
+  margin: 0;
+}
+
+.info-table td + td {
+  padding-left: 150px; /* Adjust the value as needed for the desired space between columns */
+}
+
+/* Add this CSS to your App.css file */
+.box {
+  position: relative;
+}
+
+.edit-delete-buttons {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.edit-delete-buttons button {
+  margin-left: 5px;
+}
+
